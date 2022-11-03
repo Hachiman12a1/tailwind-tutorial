@@ -2,20 +2,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="text-gray-600">
+    <!-- Content wrapper -->
     <div>
       <div>
+        <!-- navbar -->
         <nav>
           <div>
-            <h1>
+            <h1 class = "font-bold uppercase">
               <a href="/">Food Ninja</a>
             </h1>
           </div>
           <ul>
-            <li>
+            <li class = "text-gray-700 font-bold">
               <a href="#">
                 <span>Home</span>
               </a>
@@ -35,18 +38,20 @@
       </div>
 
       <main>
+        <!-- Login / Sign up -->
         <div>
           <a href="#">Log in</a>
           <a href="#">Sign up</a>
         </div>
 
+        <!-- Header -->
         <header>
-          <h2>Recipes</h2>
-          <h3>For Ninjas</h3>
+          <h2 class ="text-6xl font-semibold text-gray-600">Recipes</h2>
+          <h3 class ="text-2xl font-semibold">For Ninjas</h3>
         </header>
 
         <div>
-          <h4>Latest Recipes</h4>
+          <h4 class = "font-bold">Latest Recipes</h4>
 
           <div>
             <!-- cards go here -->
