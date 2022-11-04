@@ -579,6 +579,10 @@ video {
   display: block;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
 .flex{
   display: flex;
 }
@@ -593,6 +597,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-5{
+  width: 1.25rem;
 }
 
 .justify-center{
@@ -723,6 +731,8 @@ video {
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(226 226 213 / var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
   font-weight: 700;
   text-transform: uppercase;
   --tw-text-opacity: 1;
