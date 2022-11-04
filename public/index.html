@@ -12,14 +12,33 @@
       <div class="md:col-span-1 md:flex md:justify-end">
         <!-- navbar -->
         <nav class="text-right">
-          <div>
+          <div class="flex justify-between items-center" id="burger">
             <h1 class="font-bold uppercase p-4 hover:text-red-700">
               <a href="/">Food Ninja</a>
             </h1>
+            <div class="px-4 cursor-pointer md:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
           </div>
-          <ul>
-            <li class="text-gray-700 font-bold py-2 ">
-              <a href="#" class="flex px-4 justify-end border-r-4 border-primary">
+          <ul class="text-sm mt-6 hidden md:block" id="menu">
+            <li class="text-gray-700 font-bold py-2">
+              <a
+                href="#"
+                class="flex px-4 justify-end border-r-4 border-primary"
+              >
                 <span>Home</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +57,10 @@
               </a>
             </li>
             <li class="py-2">
-              <a href="#" class="flex px-4 justify-end border-r-4 border-gray-100">
+              <a
+                href="#"
+                class="flex px-4 justify-end border-r-4 border-gray-100"
+              >
                 <span>About</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +79,10 @@
               </a>
             </li>
             <li class="py-2">
-              <a href="#" class="flex px-4 justify-end border-r-4 border-gray-100">
+              <a
+                href="#"
+                class="flex px-4 justify-end border-r-4 border-gray-100"
+              >
                 <span>Contact</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -209,4 +234,6 @@
       </main>
     </div>
   </body>
+
+  <script src="index.js"></script>
 </html>
